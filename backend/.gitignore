@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Output files
+dist/
+build/
+out/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.sw?
+
+# Audio/Media outputs
+*.mp3
+*.wav
+audio/
+output.mp3
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: if using Google Cloud credentials
+*.json
+google-credentials.json
